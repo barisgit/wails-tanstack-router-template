@@ -1,0 +1,7 @@
+{
+  "name": "Tanstack Router with Shadcn/UI and TailwindCSS template for Wails",
+  "shortname": "wails-tanstack-router-template",
+  "author": "barisgit",
+  "description": "This template is a fork of the Wails React-TS template with Tanstack Router, Shadcn/UI, and TailwindCSS.",
+  "helpurl": "https://github.com/barisgit/wails-tanstack-router-template"
+}

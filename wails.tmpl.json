@@ -1,13 +1,13 @@
 {
   "$schema": "https://wails.io/schemas/config.v2.json",
-  "name": "wails-test",
-  "outputfilename": "wails-test",
+  "name": "{{.ProjectName}}",
+  "outputfilename": "{{.BinaryName}}",
   "frontend:install": "pnpm install",
-  "frontend:build": "pnpm build",
+  "frontend:build": "pnpm run build",
   "frontend:dev:watcher": "pnpm dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
-    "name": "barisgit",
-    "email": "baristovnik@gmail.com"
+    "name": "{{.AuthorName}}",
+    "email": "{{.AuthorEmail}}"
   }
 }
