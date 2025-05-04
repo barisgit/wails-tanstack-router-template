@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+# Auto generated files
+wailsjs/
+package.json.md5
